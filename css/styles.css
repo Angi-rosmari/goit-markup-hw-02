@@ -117,6 +117,7 @@ a {
   background-color: #f4f4fd;
 }
 .team-subtitle {
+  text-transform: capitalize;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
@@ -130,6 +131,7 @@ a {
 }
 
 .team-item {
+  background-color: #ffffff;
 }
 
 .team-image {
@@ -169,7 +171,7 @@ a {
   color: #2e2f42;
 }
 
-.p {
+.product-type {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
