@@ -4,8 +4,7 @@ body {
   background-color: #fff;
 }
 
-ul,
-ol {
+ul {
   list-style-type: none;
 }
 
@@ -16,6 +15,7 @@ a {
 .button {
   cursor: pointer;
 }
+
 .logo {
   font-family: "Raleway", sans-serif;
   font-weight: 700;
@@ -36,6 +36,7 @@ a {
 }
 
 .nav-link {
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -90,12 +91,6 @@ a {
   background-color: #404bbf;
 }
 
-.features-list {
-}
-
-.features-item {
-}
-
 .features-subtitle {
   font-weight: 500;
   font-size: 20px;
@@ -113,9 +108,6 @@ a {
 
 /** =====Team===== */
 
-.team {
-  background-color: #f4f4fd;
-}
 .team-subtitle {
   text-transform: capitalize;
   font-weight: 700;
@@ -130,20 +122,12 @@ a {
   background-color: #ffffff;
 }
 
-.team-item {
-  background-color: #ffffff;
-}
-
-.team-image {
-}
-
 .team-name {
   text-transform: capitalize;
   font-weight: 500;
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #2e2f42;
 }
 
@@ -151,16 +135,16 @@ a {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  text-align: center;
   color: #434455;
 }
 
 .products-subtitle {
-  text-transform: capitalize;
+  font-weight: 700;
   font-size: 36px;
   line-height: 1.11;
   letter-spacing: 0.02em;
   text-align: center;
+  text-transform: capitalize;
   color: #2e2f42;
 }
 .products-name {
@@ -172,9 +156,11 @@ a {
 }
 
 .products-type {
+  font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #434455;
 }
 
 .footer-text {
